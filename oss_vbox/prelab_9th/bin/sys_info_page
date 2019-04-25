@@ -14,6 +14,9 @@ cat << _EOF_
 	<BODY>
 		<H1>$title</H1>
 		<P>$TIMESTAMP</P>
+		$(report_uptime)
+		$(report_disk_space)
+		$(report_home_space)
 	</BODY>
 </HTML>
 _EOF_
