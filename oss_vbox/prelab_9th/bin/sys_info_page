@@ -3,6 +3,8 @@
 # Program to output a system information pages
 
 title="System Information Report For $HOSTNAME"
+CURRENT_TIME=$(date +"%x %r %Z")
+TIMESTAMP="Generated $CURRENT_TIME, by $USER"
 
 echo "<HTML>
 	<HEAD>
@@ -10,5 +12,6 @@ echo "<HTML>
 	</HEAD>
 	<BODY>
 		<H1>$title</H1>
+		<P>$TIMESTAMP</P>
 	</BODY>
 </HTML>"
