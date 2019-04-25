@@ -2,11 +2,13 @@
 
 # Program to output a system information pages
 
+title="System Information Report"
+
 echo "<HTML>
 	<HEAD>
-		<TITLE>System information report</TITLE>
+		<TITLE>$title</TITLE>
 	</HEAD>
 	<BODY>
-		<H1>System Information report</H1>
+		<H1>$title</H1>
 	</BODY>
 </HTML>"
