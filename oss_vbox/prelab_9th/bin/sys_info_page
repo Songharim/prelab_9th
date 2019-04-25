@@ -2,7 +2,7 @@
 
 # Program to output a system information pages
 
-title="System Information Report"
+title="System Information Report For $HOSTNAME"
 
 echo "<HTML>
 	<HEAD>
